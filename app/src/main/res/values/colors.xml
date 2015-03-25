@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color><!--白色 -->
+    <color name="background">#fafafa</color><!--holo白色背景色-->
+    <color name="lightgray">#d3d3d3</color><!--亮灰色 -->
+    <color name="title">#6dc6ca</color><!--标题栏主色调-->
+    <color name="backcolor">#efefef</color><!--背景颜色-->
+    <color name="drawer_background">#232323</color><!--侧边栏背景-->
+    <color name="black">#000000</color>
+    <color name="press">#688d99</color>
+    <color name="button">#78cbcf</color>
+
+    <color name="metro_red">#e51400</color>
+    <color name="metro_green">#339933</color>
+    <color name="metro_blue">#1ba1e2</color>
+    <color name="metro_pink">#e671b8</color>
+    <color name="metro_orange">#f09609</color>
+    <color name="metro_green2">#8cbf26</color>
+    <color name="metro_blue2">#00Aba9</color>
+    <color name="metro_red2">#ff0097</color>
+</resources>

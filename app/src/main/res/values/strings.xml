@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">计小科</string>
+    <string name="hello_world">我是启动屏幕</string>
+    <string name="action_settings">设置</string>
+    <string name="title_activity_main">计小科</string>
+    <string name="title_section1">首页</string>
+    <string name="title_section2">文章中心</string>
+    <string name="title_section3">个人中心</string>
+    <string name="title_section4">小科问答</string>
+    <string name="title_section5">问题反馈</string>
+    <string name="title_section6">今日小测</string>
+    <string name="title_section7">关于</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="title_activity_article">Article</string>
+    <string name="title_activity_column">ColumnActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_reg">RegActivity</string>
+    <string name="title_activity_check">CheckActivity</string>
+    <string name="title_activity_exam">ExamActivity</string>
+    <string name="title_activity_setting">设置</string>
+    <string name="title_activity_msg">MsgActivity</string>
+
+</resources>

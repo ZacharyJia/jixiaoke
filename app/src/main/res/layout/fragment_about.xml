@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:background="@color/backcolor"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:src="@drawable/avater_jxk"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_gravity="center"
+        android:text="计小科V0.6 Beta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="\n    本应用由北京交通大学计算机与信息技术学院团委宣传部新媒体组开发。主要用于计算机学院内部信息下发、活动宣传、交流。如果您对该应用有任何的意见和建议，或者发现应用Bug，请通过问题反馈向我们提出。同时也欢迎新同学加入我们的团队！"
+         />
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:gravity="right"
+    android:text="\n\n\n\n团委宣传部新媒体组\n2014年8月5日"
+     />
+</LinearLayout>
+</ScrollView>

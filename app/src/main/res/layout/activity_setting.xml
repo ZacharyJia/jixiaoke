@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/backcolor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:background="@color/white"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <Switch
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:text="后台接受消息推送"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:checked="true"
+                    android:id="@+id/push" />
+                </LinearLayout>
+
+            <LinearLayout
+                android:background="@color/white"
+                android:layout_marginTop="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <Switch
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:text="新消息提醒"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:checked="true"
+                    android:id="@+id/newmsg" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout_ring"
+                android:background="@color/white"
+                android:layout_marginTop="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <Switch
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:text="铃声"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:checked="true"
+                    android:id="@+id/ring" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_zhendong"
+                android:background="@color/white"
+                android:layout_marginTop="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <Switch
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:text="震动"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:checked="true"
+                    android:id="@+id/zhendong" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/checkUpdate"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:layout_marginLeft="15dp"
+                    android:gravity="center_vertical"
+                    android:text="检查更新"
+                    android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+                </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="E:\sourcefiles\AndroidStudio\jxk_git\app\build\intermediates\pre-dexed\debug\httpmime-4.1.1-b0cff1bcb1115b41759c569b4d2b81a6196ffed1.jar"
+        jar="E:\sourcefiles\AndroidStudio\jxk_git\app\libs\httpmime-4.1.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="d34b163e52a9727101aced60775d51c5085390a1"/>
+    <item
+        dex="E:\sourcefiles\AndroidStudio\jxk_git\app\build\intermediates\pre-dexed\debug\umeng-analytics-v5.2.4-827b3d698bfe827888ad33ee8d1d06d5dc785898.jar"
+        jar="E:\sourcefiles\AndroidStudio\jxk_git\app\libs\umeng-analytics-v5.2.4.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="124e0c15ac2b0b061ad4e68fc6ac0a32f33e2b33"/>
+    <item
+        dex="E:\sourcefiles\AndroidStudio\jxk_git\app\build\intermediates\pre-dexed\debug\jpush-sdk-release1.6.3-30ade917cba3a434e6f483db6703097ce38cfa4c.jar"
+        jar="E:\sourcefiles\AndroidStudio\jxk_git\app\libs\jpush-sdk-release1.6.3.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="bae1dc39123e97b8bb1eb893c62c3f7b310c76c7"/>
+    <item
+        dex="E:\sourcefiles\AndroidStudio\jxk_git\app\build\intermediates\pre-dexed\debug\umeng-update-v2.4.2-9e0a2b67493da4e43cb98704b296d73e31653463.jar"
+        jar="E:\sourcefiles\AndroidStudio\jxk_git\app\libs\umeng-update-v2.4.2.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="ee700e317f574886dc0a236b801f219df6fbd26d"/>
+    <item
+        dex="E:\sourcefiles\AndroidStudio\jxk_git\app\build\intermediates\pre-dexed\debug\classes-0ffad43be47ba4e50a2420ef4afa2a57cfee0b20.jar"
+        jar="E:\sourcefiles\AndroidStudio\jxk_git\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28"/>
+    <item
+        dex="E:\sourcefiles\AndroidStudio\jxk\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-d851921844f9c4b07ea378275f26a94d42d31cb6.jar"
+        jar="D:\Android\android-studio\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+    <item
+        dex="E:\sourcefiles\AndroidStudio\jxk\app\build\intermediates\pre-dexed\debug\jpush-sdk-release1.6.3-ed03a8b90303b24d7ebfb22d32082e402d368375.jar"
+        jar="E:\sourcefiles\AndroidStudio\jxk\app\libs\jpush-sdk-release1.6.3.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="bae1dc39123e97b8bb1eb893c62c3f7b310c76c7"/>
+    <item
+        dex="E:\sourcefiles\AndroidStudio\jxk\app\build\intermediates\pre-dexed\debug\classes-0be5c5ded404be42dcde148ac839b403492c7864.jar"
+        jar="E:\sourcefiles\AndroidStudio\jxk\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28"/>
+
+</pre-dex-items>

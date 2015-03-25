@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:longClickable="true"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/selfcenter_background"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:longClickable="true"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:src="@drawable/avater_default"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageView"
+            android:layout_gravity="center_horizontal" />
+
+        <RelativeLayout
+            android:alpha="0.7"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/username"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="UserName"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/information"
+                android:layout_marginRight="1dp"
+                android:layout_marginLeft="1dp"
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                android:text="个人资料"
+                android:layout_width="match_parent"
+                android:layout_height="48dp" />
+
+            <TextView
+                android:layout_marginTop="3dp"
+                android:id="@+id/zhitiao"
+                android:layout_marginRight="1dp"
+                android:layout_marginLeft="1dp"
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                android:text="小纸条"
+                android:layout_width="match_parent"
+                android:layout_height="48dp" />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:id="@+id/account_change"
+                android:layout_marginRight="1dp"
+                android:layout_marginLeft="1dp"
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                android:text="切换账号"
+                android:layout_width="match_parent"
+                android:layout_height="48dp" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

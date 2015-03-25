@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_back"
+    android:orientation="vertical"
+    tools:context="cit.bjtu.jxk.MainActivity$PlaceholderFragment">
+
+    <cit.bjtu.jxk.BannerView
+        android:orientation="vertical"
+        android:id="@+id/banner_view1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </cit.bjtu.jxk.BannerView>
+</LinearLayout>

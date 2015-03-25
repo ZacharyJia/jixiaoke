@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/backcolor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="30sp"
+                android:text="热门文章"/>
+            <TextView
+                android:text="加载中..."
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textSize="20sp"
+                android:id="@+id/hot1"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textSize="20sp"
+                android:id="@+id/hot2"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textSize="20sp"
+                android:id="@+id/hot3"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textSize="20sp"
+                android:id="@+id/hot4"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textSize="20sp"
+                android:id="@+id/hot5"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:gravity="center_vertical"
+                android:layout_margin="10dp"
+                android:textSize="30sp"
+                android:text="所有栏目"/>
+
+            <GridLayout
+                android:columnCount="2"
+                android:id="@+id/gridLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                </GridLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
