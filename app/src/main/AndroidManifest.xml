@@ -142,20 +142,8 @@
             android:label="@string/title_activity_reg" >
         </activity>
         <activity
-            android:name=".CheckActivity"
-            android:label="@string/title_activity_check" >
-        </activity>
-        <activity
-            android:name=".ExamActivity"
-            android:label="@string/title_activity_exam" >
-        </activity>
-        <activity
             android:name=".SettingActivity"
             android:label="@string/title_activity_setting" >
-        </activity>
-        <activity
-            android:name=".MsgActivity"
-            android:label="@string/title_activity_msg" >
         </activity>
     </application>
 

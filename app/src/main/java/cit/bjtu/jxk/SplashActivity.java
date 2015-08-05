@@ -99,11 +99,7 @@ public class SplashActivity extends ActionBarActivity implements HttpUtilsCallBa
             Toast.makeText(this, "网络错误，请检查您的网络设置！", Toast.LENGTH_SHORT).show();
             final Intent intent;
 
-            if (checked == true) {
-                intent = new Intent(this, MainActivity.class);
-            }else {
-                intent = new Intent(this, CheckActivity.class);
-            }
+            intent = new Intent(this, MainActivity.class);
             if(System.currentTimeMillis() - startTime < 3000)
             {
                 new Handler().postDelayed(new Runnable() {
@@ -140,11 +136,7 @@ public class SplashActivity extends ActionBarActivity implements HttpUtilsCallBa
             SharedPreferenceTool.setStringSet(this, "columns", column);
             SharedPreferenceTool.setStringSet(this, "column_id", id);
             final Intent intent;
-            if (checked == true) {
-                intent = new Intent(this, MainActivity.class);
-            }else {
-                intent = new Intent(this, CheckActivity.class);
-            }
+            intent = new Intent(this, MainActivity.class);
             if(System.currentTimeMillis() - startTime < 3000)
             {
                 new Handler().postDelayed(new Runnable() {

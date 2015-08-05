@@ -236,52 +236,15 @@ public class MainActivity extends ActionBarActivity
                     rootView = inflater.inflate(R.layout.fragment_article_center, container, false);
                     new article_center(rootView, getActivity());
                     break;
-                case 3:
+                case 4:
                     rootView = inflater.inflate(R.layout.fragment_msg_center, container, false);
                     self_center(rootView);
-                    break;
-                case 4:
-                    final SharedPreferences sp = inflater.getContext().getSharedPreferences("data", Context.MODE_PRIVATE);
-                    boolean isLogin = sp.getBoolean("isLogin", false);
-                    if(isLogin == true) {
-                        rootView = inflater.inflate(R.layout.fragment_chatroom, container, false);
-                        new chatRoom(rootView);
-                    }
-                    else
-                    {
-                        rootView = inflater.inflate(R.layout.no_login, container, false);
-                        final Button btn_login = (Button)rootView.findViewById(R.id.btn_login);
-                        btn_login.setOnTouchListener(new View.OnTouchListener() {
-                            @Override
-                            public boolean onTouch(View v, MotionEvent event) {
-                                if(event.getAction() == MotionEvent.ACTION_DOWN)
-                                {
-                                    btn_login.setBackgroundColor(getResources().getColor(R.color.press));
-                                }
-                                else if (event.getAction() == MotionEvent.ACTION_UP)
-                                {
-                                    btn_login.setBackgroundResource(R.drawable.login_btn);
-                                    Intent intent = new Intent(rootView.getContext(), LoginActivity.class);
-                                    startActivity(intent);
-                                }
-                                else if (event.getAction() == MotionEvent.ACTION_CANCEL)
-                                {
-                                    btn_login.setBackgroundResource(R.drawable.login_btn);
-                                }
-                                return false;
-                            }
-                        });
-                    }
                     break;
                 case 5:
                     rootView = inflater.inflate(R.layout.fragment_feedback, container, false);
                     new feedback(rootView);
                     break;
                 case 6:
-                    rootView = inflater.inflate(R.layout.fragment_exam, container, false);
-                    new exam(rootView);
-                    break;
-                case 7:
                     rootView = inflater.inflate(R.layout.fragment_about, container, false);
                     break;
                 default:
@@ -411,29 +374,6 @@ public class MainActivity extends ActionBarActivity
                 return true;
             }
         });
-        TextView zhitiao = (TextView)rootView.findViewById(R.id.zhitiao);
-        zhitiao.setOnTouchListener(new View.OnTouchListener() {
-            @Override
-            public boolean onTouch(View v, MotionEvent event) {
-                if (event.getAction() == MotionEvent.ACTION_UP)
-                {
-                    v.setBackgroundColor(rootView.getResources().getColor(R.color.white));
-                    Intent intent = new Intent(rootView.getContext(), MsgActivity.class);
-                    rootView.getContext().startActivity(intent);
-                }
-                else if (event.getAction() == MotionEvent.ACTION_CANCEL)
-                {
-                    v.setBackgroundColor(rootView.getResources().getColor(R.color.white));
-                }
-                else if(event.getAction() == MotionEvent.ACTION_DOWN)
-                {
-                    v.setBackgroundColor(rootView.getResources().getColor(R.color.lightgray));
-                }
-
-                return true;
-            }
-        });
-
 
     }
 
